@@ -2,15 +2,13 @@ function pasanganTerbesar (num) {
   // you can only write your code here!
   var numString = num.toString()
   var temp = []
-  var nomor
   for (var i = 0; i <= numString.length - 1; i++) {
     temp.push(numString[i] + numString[i + 1])
   }
   temp.sort(function (a, b) {
     return b - a
   })
-  nomor = Number(temp[0])
-  return nomor
+  return temp[0]
 }
 
 // TEST CASES

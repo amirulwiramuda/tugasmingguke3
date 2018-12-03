@@ -3,7 +3,7 @@ function hitungJumlahKata (kalimat) {
 
   var str = kalimat.split(' ')
 
-  return console.log(kalimat + ' ' + str.length)
+  return console.log(str.length)
 }
 
 
