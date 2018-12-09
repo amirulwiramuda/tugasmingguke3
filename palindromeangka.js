@@ -8,7 +8,8 @@ function angkaPalindrome (num) {
     for (var j = length - 1; j >= 0; j--) {
       temp += numToString[j]
       if (numToString === temp) {
-        return temp
+        result = parseInt(temp)
+        return result
       }
     }
   }
